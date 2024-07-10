@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+.topbar {
+  display: flex;
+  margin-top: 0;
+  
+}
+
+.nav {
+  display: flex;
+  
+  list-style: none;
+}
+
+.topbar .nav nav ul li{
+  list-style: none;
+}
+
+.topbar .nav nav ul{
+  display: flex;
+  gap:7vw; 
+}
+
+.hover:hover {
+  color: red;
+  transition: 0.15s;
+}
+
+.body1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/1000008118.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.intro {
+  padding-left: 8%;
+  padding-top: 8%;
+}
+
+.intro span {
+  color: red;
+}
+
+.text1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 0;
+  color: gray;
+}
+
+.text2 {
+  font-size: 60px;
+  font-weight: 1000;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 60px;
+}
+
+.text3 {
+  color: grey;
+}
+
+.link {
+  padding-left: 8%;
+}
+
+.Rbutton {
+  background-color: transparent;
+  color: white;
+  margin-right: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  border: solid white;
+  
+}
+
+
+.Pbutton {
+  background-color: transparent;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  border: solid white;
+  transition: 0.05
+}
+
+.Rbutton:hover {
+background-color: white;
+color: red;
+transition: 0.05
+}
+
+.Pbutton:hover {
+  background-color: white;
+  color: red;
+  transition: 0.05
+  }
+
+  .body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    gap: 100px;
+    
+  }
+
+  .about {
+    color: rgb(189, 26, 26);
+  }
+
+  .info {
+    line-height: 10px;
+  }
+
+  .subbody2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 80vh;
+      width: 60%;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+      background-color: red;
+      padding: 30px;
+      border-radius: 0;
+  }
+
+  .subbody2 span {
+    font-size: 15px;
+  }
+
+  .body2 .subbody1 span {
+    color: red;
+    padding: 5px;
+
+  }
